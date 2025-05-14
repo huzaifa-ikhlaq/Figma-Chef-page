@@ -6,26 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="bg-[#73737373]">
+<body class="bg-[#73737373] p-20">
     <!------ <nav>-------</nav>------------ -->
     <div class="relative  rounded-4xl my-10">
-        <img class="absolute -z-100 w-full h-full object-cover rounded-[7px]" src="img/Rectangle 6.png" alt="">
-        <div class="absolute bg-black/30 z-10 w-full h-full object-cover rounded-[7px] "></div>
+        <img class="absolute -z-100 w-full h-full object-cover rounded-[10px]" src="img/Rectangle 6.png" alt="">
+        <div class="absolute bg-black/30 z-10 w-full h-full object-cover rounded-[10px] "></div>
         <div class="px-[50px] py-[55px] relative z-300 ">
             <div class="flex justify-between">
                 <div class="flex items-center h-30">
                     <img class="rounded-full  object-cover h-15 w-15" src="img/Ellipse 8.png" alt="">
                     <div class="">
                         <h2 class="text-[white] text-[50px] font-medium ml-4">Group Name</h2>
-                        <h2 class="text-white text-[20px] ml-4">Ready to discover amazing chefs in your
-                            area?</h2>
+                        <p class="text-white text-[20px] ml-4">Ready to discover amazing chefs in your
+                            area?</p>
                     </div>
                 </div>
                 <div class="flex items-center h-30">
-                    <button class="text-[white] text-[13px] bg-[#FFA12E] font-[400] rounded-[5px] py-[5px] px-[7px]  ">+
-                        Create News Group</button>
+                    <div class="text-[white] text-[20px] bg-[#FFA12E] font-[400] rounded-[5px] py-[5px] px-[7px]  "><a
+                            href="#">+ Create News Group</a></div>
                 </div>
             </div>
         </div>
@@ -72,39 +77,237 @@
             </div>
         </div>
     </section>
+    <!-- <section-3>----------</section-3> -->
     <section>
+        <!---------- Group-chat-side------- -->
         <div class="grid grid-cols-5 ">
             <div class="col-span-3">
                 <h1 class="font-semibold text-[30px] mt-[60px] mb-[30px] ">Group Chat</h1>
                 <div class="bg-white px-[40px] pt-[40px] pb-[30px] rounded-[10px]">
                     <div class="flex">
                         <div><img src="img/Group 1000006801.png" alt=""></div>
-                        <div class="bg-[#F4F4F4] p-[15px] ml-[7px] rounded-[10px]">
-                            <h3 class="text-[20px] font-bold">jhon Davis</h3>
-                            <p class="text-[16px]">I'm thinking italian for this weekend.Any preferences on the menu.</p>
+                        <div class="bg-[#F4F4F4]  pt-[15px] pl-[15px] pb-[33px] pr-[38px] ml-[7px] rounded-[10px]">
+                            <h3 class="text-[20px] font-bold mb-[10px]">Jhon Davis</h3>
+                            <p class="text-[16px] mb-[10px]">I'm thinking italian for this weekend.Any preferences on
+                                the menu.
+                            </p>
                             <span class="text-[16px] text-[#333333]">5:36 PM</span>
                         </div>
                     </div>
                     <div class="flex mt-[30px]">
                         <div><img src="img/Group 1000006801 (1).png" alt=""></div>
-                        <div class="bg-[#F4F4F4] p-[15px] ml-[7px] rounded-[10px]">
-                            <h3 class="text-[20px] font-bold">jhon Davis</h3>
-                            <p class="text-[16px]">I'm thinking italian for this weekend.Any preferences on the menu.</p>
-                            <span class="text-[16px] text-[#333333]">5:36 PM</span>
+                        <div class="bg-[#F4F4F4] pt-[15px] pl-[15px] pb-[33px] pr-[38px] ml-[7px] rounded-[10px]">
+                            <h3 class="text-[20px] font-bold mb-[10px]">Jhon Davis</h3>
+                            <p class="text-[16px] mb-[10px]">I'm thinking italian for this weekend.Any preferences on
+                                the menu.
+                            </p>
+                            <span class="text-[16px] text-[#333333] ">5:36 PM</span>
                         </div>
                     </div>
                     <div class="flex justify-end mt-[30px]">
-                        <div class="bg-[#F4F4F4] p-[15px] mr-[7px] rounded-[10px]">
-                            <h3 class="text-[20px] font-bold">jhon Davis</h3>
-                            <p class="text-[16px]">I'm thinking italian for this weekend.Any preferences on the menu.</p>
-                            <span class="text-[16px] text-[#333333]">5:36 PM</span>
+                        <div class="bg-[#F4F4F4] pt-[15px] pl-[15px] pb-[33px] pr-[38px]    mr-[7px] rounded-[10px]">
+                            <h3 class="text-[20px] font-bold mb-[10px]">Jhon Davis</h3>
+                            <p class="text-[16px] mb-[10px]">I'm thinking italian for this weekend.Any preferences on
+                                the menu.
+                            </p>
+                            <span class="text-[16px] text-[#333333]  ">5:36 PM</span>
                         </div>
                         <div><img src="img/Group 1000006801 (1).png" alt=""></div>
                     </div>
+                    <div class="flex mt-[37px]">
+                        <input class="w-full border-1 border-[#333333] rounded-full pl-4 flex" type="text" name=""
+                            placeholder="Type your message..." id="">
+                        <div><img class="size-[45px] ml-[15px]" src="img/Group 1000007312.png" alt=""></div>
+                    </div>
                 </div>
             </div>
-            <div class=" ml-[50px] ">
-                <h1 class="font-semibold text-[30px] mt-[60px] mb-[30px] ">Payment Status</h1>
+            <!--------------- Payment-Status-side----------------->
+            <div class=" ml-[50px] col-span-2 ">
+                <div>
+                    <h1 class="font-semibold text-[30px] mt-[60px] mb-[30px] ">Payment Status</h1>
+                    <div class="bg-white  p-[40px] rounded-[10px]">
+                        <div>
+                            <div class="flex justify-between items-center ">
+                                <div class="flex items-center">
+                                    <img class="mb-[34px] " src="img/Ellipse 2.png" alt="">
+                                    <h2 class="text-[25px] mb-[44px] font-semibold ml-[15px]">GroupMember</h2>
+                                </div>
+                                <div class="mb-[43px]"><a href="#"
+                                        class="text-[#059669] text-[18px]  font-semibold   bg-[#ECFDF5] rounded-[50px] py-[5px] px-[33px] ">Paid</a>
+                                </div>
+                            </div>
+                            <hr class="text-[#878787]">
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center ">
+                                <div class="flex items-center">
+                                    <img class="my-[34px]" src="img/Ellipse 2.png" alt="">
+                                    <h2 class="text-[25px] my-[44px] font-semibold ml-[15px]">GroupMember</h2>
+                                </div>
+                                <div class="my-[43px]"><a href="#"
+                                        class="text-[#FFA12E] text-[18px]  font-semibold   bg-[#FFF8E7] rounded-[50px] py-[5px] px-[18px] ">Pending</a>
+                                </div>
+                            </div>
+                            <hr class="text-[#878787]">
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center ">
+                                <div class="flex items-center">
+                                    <img class="my-[34px]" src="img/Ellipse 2.png" alt="">
+                                    <h2 class="text-[25px] my-[44px] font-semibold ml-[15px]">GroupMember</h2>
+                                </div>
+                                <div class="my-[43px]"><a href="#"
+                                        class="text-[#059669] text-[18px]  font-semibold   bg-[#ECFDF5] rounded-[50px] py-[5px] px-[33px] ">Paid</a>
+                                </div>
+                            </div>
+                            <hr class="text-[#878787]">
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center ">
+                                <div class="flex items-center">
+                                    <img class="my-[34px]" src="img/Ellipse 2.png" alt="">
+                                    <h2 class="text-[25px] my-[44px] font-semibold ml-[15px]">GroupMember</h2>
+                                </div>
+                                <div class="my-[43px]"><a href="#"
+                                        class="text-[#FFA12E] text-[18px] font-semibold  bg-[#FFF8E7] rounded-[50px] py-[5px] px-[18px] ">Pending</a>
+                                </div>
+                            </div>
+                            <hr class="text-[#878787]">
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center ">
+                                <div class="flex items-center">
+                                    <img class="mt-[34px] " src="img/Ellipse 2.png" alt="">
+                                    <h2 class="text-[25px] mt-[44px] font-semibold ml-[15px]">GroupMember</h2>
+                                </div>
+                                <div class="mt-[43px]"><a href="#"
+                                        class="text-[#059669] text-[18px]  font-semibold    bg-[#ECFDF5] rounded-[50px] py-[5px] px-[33px] ">Paid</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section-4></section-4> -->
+    <section>
+        <!---------- Member-Availability-side------- -->
+        <div class="grid grid-cols-5 ">
+            <div class="col-span-3 ">
+                <h1 class="font-semibold text-[30px] mt-[60px] mb-[30px] ">Member Availability</h1>
+                <div class="bg-white px-[40px] pt-[40px] pb-[60px] rounded-[10px]">
+                    <div class="flex justify-between ">
+                        <div>
+                            <h3 class="font-semibold ">Members</h3>
+                        </div>
+                        <div class="flex  justify-end mr-[20px] font-semibold">
+                            <div>
+                                <h3 class="mr-[182px]">Date 01</h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[182px]">Date 02</h3>
+                            </div>
+                            <div>
+                                <h3 class="">Date 03</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="text-[#878787] mt-[35px] ">
+
+
+                    <!-- jvnjvnkjnvljfnvkljfnvljnfd;jnvvvvvvvvvvvvvvvk -->
+                    <div class="flex justify-between  items-center my-[35px]">
+                        <div>
+                            <div class="flex items-center">
+                                <img src="img/Group 1000006801.png" alt="">
+                                <h3 class=" ml-[12px] text-[20px] font-bold">Jhon Davis</h3>
+                            </div>
+                        </div>
+                        <div class="flx grid grid-cols-3  justify-end mr-[20px] font-semibold">
+                            <div>
+                                <h3 class="mr-[209p]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[209p]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[5p]"><img src="img/gridicons_cross-circle.png" alt=""></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="text-[#878787] mt-[35px] ">
+
+                    <!-- fbwbivbilbvilhnkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk -->
+                    <div class="flex justify-between  items-center my-[35px]">
+                        <div>
+                            <div class="flex items-center">
+                                <img src="img/Group 1000006801 (1).png" alt="">
+                                <h3 class=" ml-[12px] text-[20px] font-bold">Jhon Davis</h3>
+                            </div>
+                        </div>
+                        <div class="flex  justify-end mr-[20px] font-semibold">
+                            <div>
+                                <h3 class="mr-[209px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[209px]"><img src="img/gridicons_cross-circle.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[5px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="text-[#878787] mt-[35px] ">
+                    <div class="flex justify-between  items-center my-[35px]">
+                        <div>
+                            <div class="flex items-center">
+                                <img src="img/Group 1000006801.png" alt="">
+                                <h3 class=" ml-[12px] text-[20px] font-bold">Jhon Davis</h3>
+                            </div>
+                        </div>
+                        <div class="flex  justify-end mr-[20px] font-semibold">
+                            <div>
+                                <h3 class="mr-[209px]"><img src=" img/gridicons_cross-circle.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[209px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[5px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="text-[#878787] mt-[35px] ">
+                    <div class="flex justify-between  items-center mt-[35px]">
+                        <div>
+                            <div class="flex items-center">
+                                <img src="img/Group 1000006801 (1).png" alt="">
+                                <h3 class=" ml-[12px] text-[20px] font-bold">Jhon Davis</h3>
+                            </div>
+                        </div>
+                        <div class="flex  justify-end mr-[20px] font-semibold">
+                            <div>
+                                <h3 class="mr-[209px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[209px]"><img src="img/teenyicons_tick-circle-solid.png" alt=""></h3>
+                            </div>
+                            <div>
+                                <h3 class="mr-[5px]"><img src="img/gridicons_cross-circle.png" alt=""></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------- Group-Mealsus-side----------------->
+            <div class=" ml-[50px] col-span-2 ">
+                <div>
+                    <h1 class="font-semibold text-[30px] mt-[60px] mb-[30px] ">Group Meals</h1>
+                    <div class="bg-white  p-[40px] rounded-[10px]">
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
